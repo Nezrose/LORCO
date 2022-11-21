@@ -1,5 +1,23 @@
 {
+  "name": "lorco",
+  "version": "1.0.0",
+  "description": "collectif de designer",
+  "main": "index.html",
+  "scripts": {
+    "start": "app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nezrose/LORCO.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nezrose/LORCO/issues"
+  },
+  "homepage": "https://github.com/Nezrose/LORCO#readme",
   "dependencies": {
+    "three": "^0.146.0",
     "three-gltf-loader": "^1.111.0",
     "typescript": "^4.9.3"
   }
