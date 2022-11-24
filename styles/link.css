@@ -67,7 +67,7 @@ body {
     background: repeating-linear-gradient(#111, #111 50%, white 50%, white);
     background-size: 5px 5px;
     filter: url(#noise);
-    
+
   }
   
   svg {
@@ -77,8 +77,8 @@ body {
 .link {
     position: relative;
     background-color: transparent;
-    color: var(--accentColor);
-    border: solid var(--accentColor) 2px;
+    color: #fff;
+    border: solid #fff 2px;
     border-radius: 10px;
     font-size: 1rem;
     text-align: center;
@@ -102,14 +102,14 @@ body {
 }
 @media (hover: hover) {
     .link:hover {
-        background-color: var(--accentColor);
-        color: var(--bgColor);
+        background-color: #fff;
+        color: #20201f;
     }
 }
 
 .link:active {
-    background-color: var(--accentColor);
-    color: var(--bgColor);
+    background-color: #fff;;
+    color: #20201f;
 }
 
 /*-------------------------animations-----------------------*/
